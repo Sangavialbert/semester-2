@@ -15,6 +15,6 @@ class Student:
 name=input("Enter the name:")
 age=input("Enter the age :")
 s=Student(name,age)
-n=input()
-s.set_name(n)
+#n=input()
+#s.set_name(n)
 print(f"Name:{s.get_name()}\n Age:{s.get_age()}")
