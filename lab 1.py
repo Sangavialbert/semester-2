@@ -1,4 +1,4 @@
-print("Enter 'c' to connect from Celsius to Fahrenheit")
+print("Enter 'c' to convert from Celsius to Fahrenheit")
 print("Enter 'f' to convert from Fahrenheit to Celsius")
 choice = input("Enter your choice: ")
 if choice == 'c':
