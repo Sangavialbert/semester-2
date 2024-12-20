@@ -1,0 +1,12 @@
+class letter:
+    
+     user=input()
+     lower=0
+     upper=0
+     for i in user:
+        if i.isupper():
+           upper+=1
+        elif i.islower():
+           lower+=1
+     print(f"Numbers of Lower letters {lower}")
+     print(f"Numbers of Upper letters {upper}")
